@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: droolsbook.bank.service.impl.DefaultLoanApprovalServiceTest
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 6.583 sec

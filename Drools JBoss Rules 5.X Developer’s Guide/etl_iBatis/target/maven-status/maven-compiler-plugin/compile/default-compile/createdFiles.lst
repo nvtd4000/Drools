@@ -1,0 +1,5 @@
+droolsbook\transform\service\impl\IBatisLegacyBankService.class
+droolsbook\transform\service\LegacyBankService.class
+droolsbook\transform\Main.class
+droolsbook\transform\service\DataTransformationService.class
+droolsbook\transform\service\impl\DataTransformationServiceImpl.class

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+  <wb-module deploy-name="sampleApplication">
+        <dependent-module archiveName="bankingcore-1.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/bankingcore/bankingcore">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="validation-1.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/validation/validation">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jBPM-1.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/jBPM/jBPM">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="integration-1.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/integration/integration">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="decision_tables-1.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/decision_tables/decision_tables">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    <property name="context-root" value="sampleApplication"/>
+    <wb-resource deploy-path="/" source-path="src/main/webapp"/>
+    <property name="java-output-path" value="/target/classes"/>
+    <wb-resource deploy-path="/WEB-INF/classes" source-path="src/main/java"/>
+    <wb-resource deploy-path="/WEB-INF/classes" source-path="src/main/resources"/>
+  </wb-module>
+</project-modules>
